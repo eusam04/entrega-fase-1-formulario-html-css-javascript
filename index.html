@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Recrutamento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Barra de navegação superior -->
+<nav class="barra-topo">
+  <img class="img-logo" src="assets/scooby-doo-logo.png" alt="imagem com a logo do scooby doo">
+</nav>
+
+<!-- Container principal do conteúdo -->
+<div class="container">
+
+  <!-- Área do formulário -->
+  <div class="form-area">
+
+    <!-- Título do formulário -->
+    <h1>Recrutamento Mistérios S.A.</h1>
+
+    <!-- Formulário de cadastro -->
+    <form id="form">
+
+      <!-- Campos de entrada -->
+      <label for="name">Nome do Candidato:</label>
+      <input type="text" id="name" />
+
+      <label for="age">Idade:</label>
+      <input type="number" id="age" />
+
+      <label for="email">Email para contato:</label>
+      <input type="email" id="email" />
+
+      <label for="city">Cidade:</label>
+      <input type="text" id="city" />
+
+      <!-- Campos de seleção -->
+      <label for="role">Qual seria seu papel na equipe?</label>
+      <select id="role" name="role">
+        <option value="">Escolha uma opção</option>
+        <option value="lider">Líder que cria os planos 🧠📋</option>
+        <option value="genio">Gênio que resolve enigmas 🕵️‍♂️💡</option>
+        <option value="corajoso">Investigador corajoso 🕵️‍♀️🗡️</option>
+        <option value="medroso">O que corre do fantasma 🏃‍♂️👻</option>
+        <option value="lanches">Especialista em lanches 🍕🥪</option>
+      </select>
+
+      <label for="place">Lugar mais assustador para investigar:</label>
+      <select id="place" name="place">
+        <option value="">Escolha um lugar</option>
+        <option value="mansao">Mansão abandonada 🏚️👻</option>
+        <option value="parque">Parque de diversões abandonado 🎢💀</option>
+        <option value="floresta">Floresta à noite 🌲🌙🦉</option>
+        <option value="cemiterio">Cemitério antigo ⚰️🌫️</option>
+      </select>
+
+      <label for="food">Comida favorita durante a investigação:</label>
+      <select id="food" name="food">
+        <option value="">Escolha uma comida</option>
+        <option value="biscoito">Biscoito Scooby 🍪</option>
+        <option value="pizza">Pizza 🍕</option>
+        <option value="sanduiche">Sanduíche gigante 🥪</option>
+        <option value="hamburguer">Hambúrguer 🍔</option>
+      </select>
+
+      <!-- Campos de texto grande -->
+      <label for="misterio">Mistério mais assustador que já viu:</label>
+      <textarea id="misterio" name="misterio"></textarea>
+
+      <label for="experiencia">Experiência investigando:</label>
+      <textarea id="experiencia" name="experiencia"></textarea>
+
+      <!-- Campo de apelido -->
+      <label for="apelido">Apelido de detetive:</label>
+      <input type="text" id="apelido" name="apelido">
+
+      <!-- Botão de envio -->
+      <button type="submit">Enviar</button>
+
+    </form>
+
+  </div>
+
+  <!-- Lado direito com card e imagem -->
+  <div class="lado-direito">
+
+    <!-- Card informativo -->
+    <div class="card-recrutamento">
+      <h2>Recrutamento Mistérios S.A.🔍</h2>
+      <p>
+        A equipe da Mistérios S.A. está procurando novos detetives para ajudar
+        a investigar mistérios, fantasmas suspeitos e mansões assustadoras.
+        Se você gosta de aventuras e resolver enigmas, preencha o formulário
+        abaixo e candidate-se para a equipe!
+      </p>
+    </div>
+
+    <!-- Imagem de fundo temática -->
+    <img class="img-fundo" src="assets/imagem_scooby_doo.jpg" alt="Imagem temática de mistério">
+
+  </div>
+
+</div>
+
+</body>
+</html>
