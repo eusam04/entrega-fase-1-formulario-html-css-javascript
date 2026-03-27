@@ -31,12 +31,13 @@ Projeto desenvolvido como atividade acadêmica com o objetivo de praticar concei
 
 
 ## 📁 Estrutura do projeto
-
-📦 entrega-fase-1-formulario-html-css-javascript
+📦 entrega-fase-1-formulario-html-css-javascript:
+```
 ┣ 📂 assets
 ┣ 📄 index.html
 ┣ 📄 style.css
 ┗ 📄 script.js
+```
 
 ---
 ## 🎯 Objetivo
