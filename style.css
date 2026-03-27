@@ -1,111 +1,152 @@
+/* Reset global para remover margens e paddings padrão, definir box-sizing e fonte */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove paddings padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui padding e border na largura/altura total */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte padrão */
 }
 
+/* Estilo do corpo da página */
 body {
-    background-color: #3f9f84;
+    background-color: #3f9f84; /* Cor de fundo verde da página */
 }
 
+/* Barra de navegação superior */
 .barra-topo {
-    width: 100%;
-    height: 80px;
-    background-color: #7B3FBF;
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
+    width: 100%; /* Largura total da tela */
+    height: 80px; /* Altura fixa da barra */
+    background-color: #7B3FBF; /* Cor de fundo roxa */
+    display: flex; /* Usa flexbox para layout */
+    align-items: center; /* Centraliza itens verticalmente */
+    margin-bottom: 40px; /* Espaço abaixo da barra */
 }
 
+/* Logo na barra superior */
 .img-logo {
-    width: 200px;
-    margin-left: 30px;
+    width: 200px; /* Largura da imagem do logo */
+    margin-left: 30px; /* Margem esquerda para posicionar */
 }
 
-
+/* Container principal que organiza o layout em flexbox */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 40px;
-    width: 90%;
-    margin: auto;
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha itens no topo */
+    gap: 40px; /* Espaço entre os itens */
+    width: 90%; /* Largura de 90% da tela */
+    margin: auto; /* Centraliza automaticamente */
 }
 
-
+/* Área do formulário */
 .form-area {
-    width: 600px;
+    width: 600px; /* Largura fixa da área do formulário */
 }
 
+/* Título principal do formulário */
 h1 {
-    color: #7B3FBF;
-    margin-bottom: 20px;
+    color: #7B3FBF; /* Cor roxa para o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
+/* Rótulos dos campos */
 label {
-    font-weight: bold;
+    font-weight: bold; /* Texto em negrito */
 }
 
+/* Estilo do formulário */
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: #7B3FBF;
-    width: 100%;
-    margin-bottom: 40px;
+    display: flex; /* Layout flexível em coluna */
+    flex-direction: column; /* Itens em coluna */
+    gap: 10px; /* Espaço entre os elementos */
+    color: #7B3FBF; /* Cor do texto */
+    width: 100%; /* Largura total */
+    margin-bottom: 40px; /* Espaço abaixo */
 }
 
+/* Estilo para inputs, selects e textareas */
 input, select, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-    color: #8472b1;
-    background-color: #d4ecae;
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza fina */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #8472b1; /* Cor do texto */
+    background-color: #d4ecae; /* Cor de fundo amarela clara */
 }
 
-
+/* Estilo do botão de envio */
 button {
-    margin-top: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #fcb34c;
-    color: #ffffff;
-    font-size: 1rem;
-    cursor: pointer;
+    margin-top: 10px; /* Margem superior */
+    padding: 10px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #fcb34c; /* Cor de fundo laranja */
+    color: #ffffff; /* Cor do texto branca */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro */
 }
 
+/* Efeito hover no botão */
 button:hover {
-    background-color: #e6a63f; 
+    background-color: #e6a63f; /* Cor mais escura no hover */
 }
 
-
+/* Lado direito da página */
 .lado-direito {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+    display: flex; /* Layout flexível em coluna */
+    flex-direction: column; /* Itens em coluna */
+    gap: 20px; /* Espaço entre itens */
+    align-items: center; /* Centraliza horizontalmente */
 }
 
+/* Card informativo */
 .card-recrutamento {
-    width: 500px;
-    padding: 20px;
-    background: #46bba9;
-    border-radius: 10px;
-    text-align: left;
-    font-size: 17px;
-    min-height: 200px;
-    margin-top: 150px;
+    width: 500px; /* Largura do card */
+    padding: 20px; /* Espaçamento interno */
+    background: #46bba9; /* Cor de fundo azul-esverdeada */
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    font-size: 17px; /* Tamanho da fonte */
+    min-height: 200px; /* Altura mínima */
+    margin-top: 100px; /* Margem superior */
 }
 
+/* Imagem temática */
 .img-fundo {
-    width: 620px;
-    border-radius: 10px;
+    width: 620px; /* Largura da imagem */
+    border-radius: 10px; /* Bordas arredondadas */
 }
 
+/* Cor do texto para parágrafos e títulos h2 */
 p, h2 {
-    color: #aceeff;
+    color: #aceeff; /* Cor azul clara */
+}
+
+/* Responsividade para telas menores que 1024px */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column; /* Muda para coluna em telas pequenas */
+        align-items: center; /* Centraliza itens */
+        gap: 20px; /* Espaço reduzido */
+    }
+
+    .form-area {
+        width: 90%; /* Largura responsiva */
+        max-width: 600px; /* Largura máxima */
+    }
+
+    .lado-direito {
+        width: 90%; /* Largura responsiva */
+        max-width: 620px; /* Largura máxima */
+    }
+
+    .card-recrutamento {
+        width: 100%; /* Largura total em telas pequenas */
+        margin-top: 0; /* Remove margem superior para aproximar do formulário */
+    }
+
+    .img-fundo {
+        width: 100%; /* Largura total */
+        max-width: 620px; /* Largura máxima */
+    }
 }

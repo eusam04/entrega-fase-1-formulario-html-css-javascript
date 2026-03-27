@@ -1,3 +1,4 @@
+// Selecionando os elementos do formulário pelo ID
 const form = document.querySelector("#form")
 const nameInput = document.querySelector("#name")
 const ageInput = document.querySelector("#age")
@@ -10,11 +11,11 @@ const misterioTextarea = document.querySelector("#misterio")
 const experienciaTextarea = document.querySelector("#experiencia")
 const apelidoInput = document.querySelector("#apelido")
 
-// evita que a página dê refresh no form
+// Adiciona um ouvinte de evento para o envio do formulário
 form.addEventListener("submit", (event) => {
-    event.preventDefault();
+    event.preventDefault(); // Impede o recarregamento da página
  
-    // Validação
+    // Validação dos campos obrigatórios
 
     if (nameInput.value === "") { 
         alert("Por favor, preencha seu nome.");
@@ -60,7 +61,7 @@ form.addEventListener("submit", (event) => {
 
     // Se passou por todas as validações
     alert("Formulário enviado com sucesso!");
-    form.reset();
+    form.reset(); // Limpa o formulário
     
 })
 
