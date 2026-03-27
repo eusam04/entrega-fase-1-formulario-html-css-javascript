@@ -7,7 +7,7 @@ Projeto desenvolvido como atividade acadêmica com o objetivo de praticar concei
 ## 🎬 Demonstração
 
 <div align="center">
-  <p>Prévia visual da página inicial do projeto:</p>
+  <p>Prévia visual da página do projeto:</p>
 
   <img src="./assets/readme/gif-formulario.gif" alt="Demonstração do site" width="40%" />
 </div>
